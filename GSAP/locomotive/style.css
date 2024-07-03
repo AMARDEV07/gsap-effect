@@ -1,0 +1,44 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    /* background-color:red; */
+    overflow: hidden;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+   /* background-color: azure; */
+}
+#page2 #img-div{
+
+    height: 100%;
+    width: 30%;
+    position: relative;
+     left: 50%; 
+    transform: translateX(-50%);
+ /* background-color: green; */
+ 
+}
+#img-div{
+   scale: 1.3;
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
